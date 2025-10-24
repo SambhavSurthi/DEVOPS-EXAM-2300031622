@@ -18,7 +18,7 @@ services:
       start_period: 30s
 
   backend:
-    image: sambhavsurthi/2300031622-EXAM-BACKEND:latest
+    image: sambhavsurthi/2300031622-exam-backend:latest
     container_name: voter-springboot
     ports:
       - "2025:2000"
@@ -34,7 +34,7 @@ services:
       - spring.datasource.password=root
 
   frontend:
-    image: sambhavsurthi/2300031622-EXAM-FRONTEND:latest
+    image: sambhavsurthi/2300031622-exam-frontend:latest
     container_name: voter-react
     ports:
       - "3001:80"
