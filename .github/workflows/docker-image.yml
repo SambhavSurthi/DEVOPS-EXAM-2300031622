@@ -37,4 +37,4 @@ jobs:
           context: ./FRONTEND
           file: ./FRONTEND/frontend.Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/2300031622-exam-backend:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/2300031622-exam-frontend:latest
